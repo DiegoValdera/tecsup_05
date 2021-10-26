@@ -1,0 +1,13 @@
+$fuente: "Arial, Helvetica, sans-serif";
+body{
+    margin: 0;
+    padding: 0;
+    font-family: $fuente;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}

@@ -1,0 +1,90 @@
+@import "main";
+@import "button";
+
+//PRIMER BOTON
+.container .btn1{
+    @include boton-1(
+        $font-size:12px);
+        border:2px solid rgb(42, 163, 117);
+}
+.container .btn1:hover{
+    @include boton-1(
+        $colores:rgb(255, 255, 255), 
+        $color-texto:rgb(42, 163, 117),
+        $font-size:12px);
+}
+
+//SEGUNDO BOTON
+.container .btn2{
+    @include boton-1(
+        $colores:rgb(79, 88, 206),
+        $color-texto:rgb(255, 255, 255),
+        $font-size:12px);
+        border:2px solid rgb(79, 88, 206);
+}
+.container .btn2:hover{
+    @include boton-1(
+        $colores:rgb(255, 255, 255), 
+        $color-texto:rgb(79, 88, 206),
+        $font-size:12px)
+}
+
+//TERCER BOTON
+.container .btn3{
+    @include boton-1(
+        $colores:rgb(62, 135, 218),
+        $color-texto:rgb(255, 255, 255),
+        $font-size:12px);
+        border:2px solid rgb(62, 135, 218);
+}
+.container .btn3:hover{
+    @include boton-1(
+        $colores:rgb(255, 255, 255), 
+        $color-texto:rgb(62, 135, 218),
+        $font-size:12px)
+}
+
+//CUARTO BOTON
+.container .btn4{
+    @include boton-1(
+        $colores:rgb(58, 211, 152),
+        $color-texto:rgb(255, 255, 255), 
+        $font-size:12px);
+        border:2px solid rgb(58, 211, 152);
+}
+.container .btn4:hover{
+    @include boton-1(
+        $colores:rgb(255, 255, 255), 
+        $color-texto:rgb(58, 211, 152), 
+        $font-size:12px)
+}
+
+//QUINTO BOTON
+.container .btn5{
+    @include boton-1(
+        $colores:rgb(190, 179, 79),
+        $color-texto:rgb(255, 255, 255),
+        $font-size:12px);
+        border:2px solid rgb(190, 179, 79);
+}
+.container .btn5:hover{
+    @include boton-1(
+        $colores:rgb(255, 255, 255), 
+        $color-texto:rgb(190, 179, 79),
+        $font-size:12px)
+}
+
+//SEXTO BOTON
+.container .btn6{
+    @include boton-1(
+        $colores:rgb(201, 75, 75), 
+        $color-texto:rgb(255, 255, 255), 
+        $font-size:12px);
+        border:2px solid rgb(201, 75, 75);
+}
+.container .btn6:hover{
+    @include boton-1(
+        $colores:rgb(255, 255, 255), 
+        $color-texto:rgb(201, 75, 75), 
+        $font-size:12px)
+}

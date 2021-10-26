@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial, Helvetica, sans-serif";
+}
+
+.container {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px;
+}
+
+.container .btn1 {
+  background-color: #2aa375;
+  padding: 10px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 7px;
+  border: 2px solid #2aa375;
+}
+
+.container .btn1:hover {
+  background-color: white;
+  padding: 10px;
+  color: #2aa375;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.container .btn2 {
+  background-color: #4f58ce;
+  padding: 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 7px;
+  border: 2px solid #4f58ce;
+}
+
+.container .btn2:hover {
+  background-color: white;
+  padding: 10px;
+  color: #4f58ce;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.container .btn3 {
+  background-color: #3e87da;
+  padding: 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 7px;
+  border: 2px solid #3e87da;
+}
+
+.container .btn3:hover {
+  background-color: white;
+  padding: 10px;
+  color: #3e87da;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.container .btn4 {
+  background-color: #3ad398;
+  padding: 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 7px;
+  border: 2px solid #3ad398;
+}
+
+.container .btn4:hover {
+  background-color: white;
+  padding: 10px;
+  color: #3ad398;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.container .btn5 {
+  background-color: #beb34f;
+  padding: 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 7px;
+  border: 2px solid #beb34f;
+}
+
+.container .btn5:hover {
+  background-color: white;
+  padding: 10px;
+  color: #beb34f;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.container .btn6 {
+  background-color: #c94b4b;
+  padding: 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 7px;
+  border: 2px solid #c94b4b;
+}
+
+.container .btn6:hover {
+  background-color: white;
+  padding: 10px;
+  color: #c94b4b;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 7px;
+}
+/*# sourceMappingURL=index.css.map */

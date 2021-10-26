@@ -1,0 +1,12 @@
+@mixin boton-1(
+    $colores:rgb(42, 163, 117), 
+    $color-texto:#fff,
+    $font-size:16px){
+    background-color: $colores;
+    padding: 10px;
+    color: $color-texto;
+    font-size: $font-size;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 7px;
+}
