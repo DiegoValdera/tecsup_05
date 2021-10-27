@@ -1,0 +1,12 @@
+@import "body";
+
+section{
+    @extend %color-fondo;
+    @include box-color;
+    margin: 10px;
+}
+
+header{
+    @extend %header;
+    @include box-color;
+}
