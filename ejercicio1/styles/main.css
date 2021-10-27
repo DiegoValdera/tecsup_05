@@ -89,6 +89,7 @@ body {
 .precio span:nth-child(2) {
   font-size: 18px;
   color: #fd2424;
+  text-decoration: line-through;
 }
 
 img {
