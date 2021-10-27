@@ -1,0 +1,143 @@
+/*IMPORTANDO CARD*/
+@import "card";
+@import "card2";
+
+.card{
+    @extend %card;
+}
+
+/*ICONOS*/
+@mixin iconos($color:#fff,$fondo-color:#FFC22B) {
+    font-size: 20px;
+    background-color: $fondo-color;
+    color: $color;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 8px;
+}
+.icons i{
+    @include iconos;
+}
+.card .icons i:nth-child(1){
+    @include iconos($fondo-color:rgb(235, 70, 70));
+}
+.card .icons i:nth-child(2){
+    @include iconos($fondo-color:rgb(84, 184, 81));
+}
+.card-2 .icons i{
+    @include iconos($fondo-color:#007AE9);
+}
+%heart{
+    font-size: 28px;
+    position: absolute;
+    right: 10px;
+    top: -50px;
+    right: 20px;
+}
+.ico-heart-0{
+    @extend %heart;
+    color: rgb(243, 243, 243); 
+}
+
+.ico-heart-1{
+    @extend %heart;
+    color: rgb(238, 16, 16); 
+}
+
+
+/*MIXIN BOTONES*/
+@mixin botones($boton:#2ECC71, $padding:10px 20px 10px 20px){
+    background-color: $boton;
+    padding: $padding;
+    border-radius: 5px;
+    border: 1px solid $boton;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button{
+    @include botones;
+}
+
+/////////////////////////////////////////////////////////////////////@extend
+//CARD-2
+.card-2{
+    @extend %card;
+}
+
+.start button{
+    @include botones($boton: #007AE9, $padding:5px 20px 5px 20px);
+    color: #ffffff;
+    font-size: 11px;
+}
+
+.btns button{
+    @include botones($boton: #fafafa);
+    color: #007AE9;
+    border: 1px solid rgb(187, 186, 186);
+    font-size: 11px;
+}
+
+.btn-room{
+    @include botones($padding:25px);
+    width: 100%;
+    letter-spacing: 5px;
+}
+
+@mixin start-icons($color: #FFC22B) {
+    font-size: 20px;
+    color: $color;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 8px;
+}
+.start i{
+    @include start-icons;
+}
+.start .n-start{
+    @include start-icons($color:rgb(170, 170, 170));
+}
+
+@mixin precio($top:120px,$font-size:24px,$color-texto:#808080, $right:20px) {
+    position: absolute;
+    right: $right;
+    top: $top;
+    font-size: $font-size;
+    font-weight: bold;
+    color:$color-texto;
+}
+.precios1{
+    @include precio(
+        $top:90px, 
+        $font-size:35px, 
+        $color-texto:rgb(61, 61, 61),
+        $right:80px);
+}
+.precios1 span{
+    @include precio(
+        $top:15px,
+        $font-size:16px,
+        $color-texto:rgb(61, 61, 61),
+        $right:-50px);
+}
+.precios2{
+    @include precio(
+        $top:128px, 
+        $font-size:18px, 
+        $color-texto:rgb(167, 167, 167),
+        $right:70px
+    );
+}
+.precios2 span{
+    @include precio(
+        $top:4px,
+        $font-size:12px,
+        $color-texto:rgb(163, 162, 162),
+        $right:-40px);
+}
+

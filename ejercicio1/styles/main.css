@@ -1,0 +1,378 @@
+/*IMPORTANDO CARD*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+  background-color: #e9e9e9;
+}
+
+/*CARD*/
+.container {
+  margin-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 30% 30%;
+      grid-template-columns: 30% 30% 30%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+
+.card, .card-2 {
+  background-color: #fff;
+  gap: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 16px;
+}
+
+.card .titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 15px;
+}
+
+.card .icons {
+  margin-top: 15px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #8f8d8d;
+  margin: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .calorias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #a5a3a3;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 25px 15px 25px 15px;
+}
+
+.card .precio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 25px 15px 25px 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.precio span:nth-child(1) {
+  font-size: 24px;
+  font-weight: bold;
+  color: #5a5959;
+}
+
+.precio span:nth-child(2) {
+  font-size: 18px;
+  color: #fd2424;
+}
+
+img {
+  width: 100%;
+}
+
+/*RESPONSIVE*/
+@media (min-width: 220px) and (max-width: 820px) {
+  .container {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+}
+
+.container2 {
+  margin-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 42% 52%;
+      grid-template-columns: 42% 52%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+
+.card-min {
+  position: relative;
+}
+
+.container-base {
+  position: relative;
+}
+
+.card-2 .titulo-room {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 10px 0 10px;
+}
+
+.card-2 .icons {
+  margin-top: 15px;
+}
+
+.start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: initial;
+      -ms-flex-pack: initial;
+          justify-content: initial;
+  gap: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 10px 10px 10px;
+}
+
+.btns {
+  margin: 10px;
+}
+
+.card-min p {
+  font-size: 14px;
+  color: #8f8d8d;
+  margin: 30px 15px 15px 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-min .green {
+  display: block;
+  font-size: 14px;
+  color: #2ECC71;
+  margin: 15px;
+  text-align: center;
+}
+
+/**/
+/*RESPONSIVE*/
+@media (min-width: 220px) and (max-width: 820px) {
+  .container2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+}
+
+/*ICONOS*/
+.icons i {
+  font-size: 20px;
+  background-color: #FFC22B;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.card .icons i:nth-child(1) {
+  font-size: 20px;
+  background-color: #eb4646;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.card .icons i:nth-child(2) {
+  font-size: 20px;
+  background-color: #54b851;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.card-2 .icons i {
+  font-size: 20px;
+  background-color: #007AE9;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.ico-heart-0, .ico-heart-1 {
+  font-size: 28px;
+  position: absolute;
+  right: 10px;
+  top: -50px;
+  right: 20px;
+}
+
+.ico-heart-0 {
+  color: #f3f3f3;
+}
+
+.ico-heart-1 {
+  color: #ee1010;
+}
+
+/*MIXIN BOTONES*/
+button {
+  background-color: #2ECC71;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #2ECC71;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.start button {
+  background-color: #007AE9;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  border: 1px solid #007AE9;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 11px;
+}
+
+.btns button {
+  background-color: #fafafa;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #fafafa;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  color: #007AE9;
+  border: 1px solid #bbbaba;
+  font-size: 11px;
+}
+
+.btn-room {
+  background-color: #2ECC71;
+  padding: 25px;
+  border-radius: 5px;
+  border: 1px solid #2ECC71;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  letter-spacing: 5px;
+}
+
+.start i {
+  font-size: 20px;
+  color: #FFC22B;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.start .n-start {
+  font-size: 20px;
+  color: #aaaaaa;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.precios1 {
+  position: absolute;
+  right: 80px;
+  top: 90px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #3d3d3d;
+}
+
+.precios1 span {
+  position: absolute;
+  right: -50px;
+  top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #3d3d3d;
+}
+
+.precios2 {
+  position: absolute;
+  right: 70px;
+  top: 128px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #a7a7a7;
+}
+
+.precios2 span {
+  position: absolute;
+  right: -40px;
+  top: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #a3a2a2;
+}
+/*# sourceMappingURL=main.css.map */
