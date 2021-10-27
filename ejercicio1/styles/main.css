@@ -19,6 +19,37 @@ body {
   gap: 30px;
 }
 
+.card:hover, .card-2:hover {
+  -webkit-box-shadow: -1px 1px 17px 10px rgba(120, 208, 248, 0.7);
+          box-shadow: -1px 1px 17px 10px rgba(120, 208, 248, 0.7);
+  -webkit-animation-name: opacidad;
+          animation-name: opacidad;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+@-webkit-keyframes opacidad {
+  from {
+    -webkit-box-shadow: -1px 1px 17px 0px rgba(255, 255, 255, 0.7);
+            box-shadow: -1px 1px 17px 0px rgba(255, 255, 255, 0.7);
+  }
+  to {
+    -webkit-box-shadow: -1px 1px 17px 10px rgba(120, 208, 248, 0.7);
+            box-shadow: -1px 1px 17px 10px rgba(120, 208, 248, 0.7);
+  }
+}
+
+@keyframes opacidad {
+  from {
+    -webkit-box-shadow: -1px 1px 17px 0px rgba(255, 255, 255, 0.7);
+            box-shadow: -1px 1px 17px 0px rgba(255, 255, 255, 0.7);
+  }
+  to {
+    -webkit-box-shadow: -1px 1px 17px 10px rgba(120, 208, 248, 0.7);
+            box-shadow: -1px 1px 17px 10px rgba(120, 208, 248, 0.7);
+  }
+}
+
 .card, .card-2 {
   background-color: #fff;
   gap: 30px;
