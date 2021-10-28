@@ -1,0 +1,35 @@
+%primary{
+    background-color: rgb(39, 177, 91);
+    color: #fff;
+    padding: 8px 15px 8px 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(39, 177, 91);
+    font-size: 14px;
+}
+
+%success{
+    background-color: rgb(100, 149, 237);
+    color: #fff;
+    padding: 8px 15px 8px 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(100, 149, 237);
+    font-size: 14px;
+}
+
+%warning{
+    background-color: rgb(216, 193, 88);
+    color: #fff;
+    padding: 8px 15px 8px 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(237, 205, 100);
+    font-size: 14px;
+}
+
+%error{
+    background-color: rgb(240, 61, 61);
+    color: #fff;
+    padding: 8px 15px 8px 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(240, 61, 61);
+    font-size: 14px;
+}
